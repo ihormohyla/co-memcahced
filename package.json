@@ -8,7 +8,15 @@
     },
     "dependencies": {
         "memcached" : "~0.2.8",
-        "config": "*",
-        "co" : "*"
+        "config": "*"
+    },
+    "devDependencies": {
+        "co": "~3.0.6"
+    },
+    "scripts": {
+        "start": "node --harmony example.js"
+    },
+    "engines": {
+        "node": ">=0.11.x"
     }
 }

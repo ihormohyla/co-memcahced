@@ -1,0 +1,14 @@
+{
+    "name": "co-memcahce",
+    "version": "0.0.1",
+    "description": "",
+    "author": {
+        "name": "Ihor Mohyla",
+        "email": "l.ihor.p.mogyla@gmail.com"
+    },
+    "dependencies": {
+        "memcached" : "~0.2.8",
+        "config": "*",
+        "co" : "*"
+    }
+}

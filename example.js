@@ -1,4 +1,5 @@
-var memcached = require('./index');
+var config = require('config');
+var memcached = require('./index')(config.memcached);
 var co = require('co');
 
 
